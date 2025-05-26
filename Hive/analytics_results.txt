@@ -1,0 +1,137 @@
+
+1- Average Length of Stay per Diagnosis
++----------------------------------------------------+---------------+
+|                    a.diagnosis                     | avg_los_days  |
++----------------------------------------------------+---------------+
+| FACIAL NUMBNESS                                    | 124.0         |
+| ACUTE RESPIRATORY DISTRESS SYNDROME;ACUTE RENAL FAILURE | 36.0          |
+| SEIZURE;STATUS EPILEPTICUS                         | 32.0          |
+| NON SMALL CELL CANCER;HYPOXIA                      | 25.0          |
+| CHEST PAIN/ CATH                                   | 25.0          |
+| ESOPHAGEAL CA/SDA                                  | 23.0          |
+| HEPATIC ENCEP                                      | 22.0          |
+| S/P MOTOR VEHICLE ACCIDENT                         | 22.0          |
+| ABSCESS                                            | 20.0          |
+| CONGESTIVE HEART FAILURE                           | 19.67         |
++----------------------------------------------------+---------------+
+
+
+2- Distribution of ICU Readmissions
++-----------------+----------------+-------------+
+| icu_stay_count  | patient_count  | percentage  |
++-----------------+----------------+-------------+
+| 1               | 81             | 81.0        |
+| 2               | 15             | 15.0        |
+| 3               | 2              | 2.0         |
+| 4               | 1              | 1.0         |
+| 15              | 1              | 1.0         |
++-----------------+----------------+-------------+
+
+
+
+3- Mortality Rates by Demographic Groups 
++-----------+----------------------------------------------------+-------------------+---------+-----------------+
+| p.gender  |                    a.ethnicity                     | total_admissions  | deaths  | mortality_rate  |
++-----------+----------------------------------------------------+-------------------+---------+-----------------+
+| M         | UNABLE TO OBTAIN                                   | 1                 | 1       | 100.0           |
+| M         | OTHER                                              | 1                 | 1       | 100.0           |
+| M         | ASIAN                                              | 1                 | 1       | 100.0           |
+| F         | OTHER                                              | 2                 | 1       | 50.0            |
+| M         | UNKNOWN/NOT SPECIFIED                              | 2                 | 1       | 50.0            |
+| F         | HISPANIC OR LATINO                                 | 2                 | 1       | 50.0            |
+| M         | AMERICAN INDIAN/ALASKA NATIVE FEDERALLY RECOGNIZED TRIBE | 2                 | 1       | 50.0            |
+| F         | UNKNOWN/NOT SPECIFIED                              | 9                 | 4       | 44.44           |
+| F         | WHITE                                              | 41                | 14      | 34.15           |
+| M         | BLACK/AFRICAN AMERICAN                             | 3                 | 1       | 33.33           |
+| M         | WHITE                                              | 45                | 13      | 28.89           |
+| F         | BLACK/AFRICAN AMERICAN                             | 4                 | 1       | 25.0            |
+| M         | HISPANIC/LATINO - PUERTO RICAN                     | 15                | 0       | 0.0             |
+| F         | ASIAN                                              | 1                 | 0       | 0.0             |
++-----------+----------------------------------------------------+-------------------+---------+-----------------+
+
+
+4- Top 5 Most Common ICD-9 Diagnoses
++--------------+------------------+
+| d.icd9_code  | diagnosis_count  |
++--------------+------------------+
+| 4019         | 53               |
+| 42731        | 48               |
+| 5849         | 45               |
+| 4280         | 39               |
+| 51881        | 31               |
++--------------+------------------+
+
+
+5- Abnormal Lab Test Frequency by Care Unit
++-------------------+-----------+-------------+-------------+
+| i.first_careunit  |  l.flag   | test_count  | percentage  |
++-------------------+-----------+-------------+-------------+
+| CCU               | Unknown   | 9772        | 64.01       |
+| CCU               | abnormal  | 5466        | 35.81       |
+| CCU               | delta     | 28          | 0.18        |
+| CSRU              | Unknown   | 1385        | 60.24       |
+| CSRU              | abnormal  | 906         | 39.41       |
+| CSRU              | delta     | 8           | 0.35        |
+| MICU              | Unknown   | 20254       | 58.5        |
+| MICU              | abnormal  | 14290       | 41.27       |
+| MICU              | delta     | 81          | 0.23        |
+| SICU              | Unknown   | 8048        | 59.24       |
+| SICU              | abnormal  | 5497        | 40.46       |
+| SICU              | delta     | 41          | 0.3         |
+| TSICU             | Unknown   | 1550        | 67.07       |
+| TSICU             | abnormal  | 754         | 32.63       |
+| TSICU             | delta     | 7           | 0.3         |
++-------------------+-----------+-------------+-------------+
+
+
+6- Patient Age Distribution at Admission 
++------+----------------+
+| age  | patient_count  |
++------+----------------+
+| 17   | 1              |
+| 19   | 1              |
+| 27   | 2              |
+| 29   | 1              |
+| 36   | 1              |
+| 40   | 1              |
+| 41   | 2              |
+| 43   | 1              |
+| 44   | 2              |
+| 45   | 1              |
+| 48   | 2              |
+| 49   | 1              |
+| 50   | 1              |
+| 51   | 1              |
+| 53   | 3              |
+| 54   | 3              |
+| 55   | 2              |
+| 58   | 1              |
+| 61   | 1              |
+| 62   | 3              |
+| 63   | 4              |
+| 64   | 2              |
+| 65   | 7              |
+| 66   | 5              |
+| 67   | 1              |
+| 68   | 4              |
+| 69   | 2              |
+| 70   | 4              |
+| 71   | 1              |
+| 72   | 4              |
+| 73   | 2              |
+| 75   | 2              |
+| 76   | 5              |
+| 77   | 4              |
+| 78   | 4              |
+| 79   | 1              |
+| 80   | 4              |
+| 81   | 6              |
+| 82   | 4              |
+| 83   | 4              |
+| 85   | 5              |
+| 86   | 4              |
+| 87   | 4              |
+| 88   | 6              |
+| 299  | 8              |
+| 300  | 1              |
++------+----------------+
