@@ -80,7 +80,7 @@ healthcare-project/
 ├── PATIENTS_processed.csv
 ├── avg_age/
 │   ├── AverageAge.java         # MapReduce job to calculate average patient age
-    └── avg_result.txt          # Output/results from MapReduce job
+│   └── avg_result.txt          # Output/results from MapReduce job
 ├── create_tables.hql           # Hive script to create tables
 ├── mimic_analytics.hql         # Hive analytics queries on MIMIC data
 ├── hive-site.xml               # Hive configuration file
