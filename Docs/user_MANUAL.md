@@ -68,8 +68,8 @@ PATIENTS_processed.csv stored in HDFS at /user/input/PATIENTS_processed/PATIENTS
 2. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/abdelrhmanmousa/Healthcare-Data-Analytics-Pipeline
-   cd Healthcare-Data-Analytics-Pipeline
+   git clone https://github.com/Marcel-Jan/docker-hadoop-spark.git
+   cd docker-hadoop-spark
    ```
 
 3. **Start Docker Containers**:
